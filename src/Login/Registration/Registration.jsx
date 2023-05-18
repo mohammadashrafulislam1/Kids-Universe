@@ -1,8 +1,13 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProvider";
+import { updateProfile } from "firebase/auth";
 
 const Registration = () => {
     const [show, setShow] = useState('');
+    const {createUser} = useContext(AuthContext);
+    const [error, setError] = useState();
+    const [success, setSuccess] = useState();
     const handleRegistration = e =>{
         e.preventDefault();
         const form = e.target;
@@ -10,7 +15,23 @@ const Registration = () => {
         const password = form.password.value;
         const name = form.name.value;
         const photo = form.photo.value;
+        setError();
+        setSuccess();
+        form.reset()
         console.log(email, password, name, photo)
+        createUser(email, password)
+        .then(result =>{
+            const loggedUser = result.user;
+            console.log(loggedUser)
+            updateProfile(loggedUser, {
+                displayName: name,
+                photoURL: photo
+            })
+            setSuccess('Successfully created an user')
+        })
+        .catch(error =>{
+            setError(error.message)
+        })
     }
     return (
         <form className="hero min-h-screen bg-base-200" onSubmit={handleRegistration}>
@@ -48,6 +69,10 @@ const Registration = () => {
           <button className="btn btn-primary">Register</button>
         </div>
         <Link to='/login'>Already a member? Login</Link>
+      </div>
+      <div className="p-3">
+      <p className="text-red-600">{error}</p>
+      <p className="text-green-600">{success}</p>
       </div>
     </div>
 </form>

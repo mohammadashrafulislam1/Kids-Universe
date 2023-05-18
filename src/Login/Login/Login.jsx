@@ -1,14 +1,24 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProvider";
 
 const Login = () => {
     const [show, setShow] = useState('');
+    const {signIn} = useContext(AuthContext);
     const handleLogin = e =>{
         e.preventDefault();
         const form = e.target;
         const email = form.email.value;
         const password = form.password.value;
         console.log(email, password)
+        signIn(email, password)
+        .then(result =>{
+          const loggedUser = result.user;
+          console.log(loggedUser)
+        })
+        .catch(error =>{
+          console.log(error)
+        })
     }
     return (
         <form className="hero min-h-screen bg-base-200" onSubmit={handleLogin}>

@@ -10,6 +10,7 @@ import Error from './Error/Error';
 import Main from './Main/Main';
 import Login from './Login/Login/Login';
 import Registration from './Login/Registration/Registration';
+import AuthProvider from './Provider/AuthProvider';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,6 +34,6 @@ const router = createBrowserRouter([
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <RouterProvider router={router} />
+   <AuthProvider><RouterProvider router={router} /></AuthProvider>
   </React.StrictMode>,
 )

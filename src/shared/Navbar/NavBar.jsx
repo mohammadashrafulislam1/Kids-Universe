@@ -1,11 +1,18 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProvider";
+import { Tooltip } from "react-tooltip";
 
 const NavBar = () => {
+    const {user, logOut} = useContext(AuthContext)
     const navLi =<>
     <Link to='/'><li className="lg:pr-5 sm:p-3">Home</li></Link>
     <Link to='/all'><li className="lg:pr-5 sm:p-3">All toys</li></Link>
     <Link to='/blogs'><li className="lg:pr-5 sm:p-3">Blogs</li></Link>
     </>
+    const handleLogOut = ()=>{
+        logOut()
+    }
     return (
         <div className="navbar bg-base-100">
         <div className="navbar-start">
@@ -25,19 +32,22 @@ const NavBar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-        <div className="dropdown dropdown-end">
+        {user? <div className="dropdown dropdown-end">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-        <div className="w-10 rounded-full">
-          <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+        <div className="w-10 rounded-full" data-tooltip-id="name" data-tooltip-content={user?.displayName}>
+          <img src={user?.photoURL} />
+          
+        <Tooltip id="name"></Tooltip>
         </div>
       </label>
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         <li>
-         <Link to='add'>Add A Toy</Link>
+         <Link to='/add'>Add A Toy</Link>
         </li>
-        <li><Link to='mytoy'>My Toys</Link></li>
+        <li><Link to='/mytoy'>My Toys</Link></li>
+        <li className="p-2 cursor-pointer" onClick={handleLogOut}>Log out</li>
       </ul>
-    </div>
+    </div>: <Link to='/login'><button className="btn">Login</button></Link>}
         </div>
       </div>
     );
