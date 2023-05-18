@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
+import SocialLogin from "../SocialLogin/SocialLogin";
 
 const Login = () => {
     const [show, setShow] = useState('');
@@ -44,6 +45,7 @@ const Login = () => {
           <button className="btn btn-primary">Login</button>
         </div>
         <Link to='/register'>Already a member? register</Link>
+        <SocialLogin></SocialLogin>
       </div>
     </div>
   </div>

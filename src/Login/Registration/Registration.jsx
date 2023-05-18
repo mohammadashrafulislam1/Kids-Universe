@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { updateProfile } from "firebase/auth";
+import SocialLogin from "../SocialLogin/SocialLogin";
 
 const Registration = () => {
     const [show, setShow] = useState('');
@@ -28,6 +29,7 @@ const Registration = () => {
                 photoURL: photo
             })
             setSuccess('Successfully created an user')
+            setError()
         })
         .catch(error =>{
             setError(error.message)
@@ -69,6 +71,7 @@ const Registration = () => {
           <button className="btn btn-primary">Register</button>
         </div>
         <Link to='/login'>Already a member? Login</Link>
+        <SocialLogin></SocialLogin>
       </div>
       <div className="p-3">
       <p className="text-red-600">{error}</p>
