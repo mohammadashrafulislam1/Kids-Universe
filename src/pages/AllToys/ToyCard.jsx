@@ -2,8 +2,8 @@ import Rating from "react-rating";
 import { Link } from "react-router-dom";
 import { FaRegStar, FaStar } from 'react-icons/fa';
 
-const ToyCard = ({toy}) => {
-    const {name, seller, picture, price, quantity, _id, rating}= toy
+const ToyCard = ({re}) => {
+    const {name, seller, picture, price, quantity, _id, rating}= re;
     return (
         <div>
             <div className="card w-96 bg-base-100 shadow-xl">

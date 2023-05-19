@@ -5,10 +5,7 @@ const AllToys = () => {
     const toys = useLoaderData();
     return (
         <div className="grid lg:grid-cols-3 justify-center gap-5 mt-10">
-        {toys.map(toy => <ToyCard
-        key={toy._id}
-        toy={toy}
-        ></ToyCard>)}  
+        {toys.map(toy => console.log(toy))}  
         </div>
     );
 };

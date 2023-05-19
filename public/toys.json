@@ -7,7 +7,7 @@
         "email": "info@toyworld.com",
         "picture": "https://giftguideonline.com.au/wp-content/uploads/2015/07/249_photo_1376.jpg"
       },
-      "category":"1",
+      "category":"Teddy",
       "price": 19.99,
       "rating": 4.5,
       "quantity": 10,
@@ -21,7 +21,7 @@
         "email": "sales@happytoys.com",
         "picture": "https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/304936085_582200083602262_251668984854104651_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=edy8z8yna94AX8yDn2S&_nc_ht=scontent.fdac27-2.fna&oh=00_AfDW6Nud7btRUQtKE9Ci1htoSRZuQf-KT5E2zL5NAp9PWw&oe=646C97BB"
       },
-      "category":"2",
+      "category":"Monkey",
       "price": 12.99,
       "rating": 3.8,
       "quantity": 5,
@@ -35,7 +35,7 @@
           "email": "sales@happytoys.com",
           "picture": "https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/304936085_582200083602262_251668984854104651_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=edy8z8yna94AX8yDn2S&_nc_ht=scontent.fdac27-2.fna&oh=00_AfDW6Nud7btRUQtKE9Ci1htoSRZuQf-KT5E2zL5NAp9PWw&oe=646C97BB"
         },
-      "category":"2",
+      "category":"Monkey",
         "price": 12.99,
         "rating": 3.8,
         "quantity": 5,
@@ -49,7 +49,7 @@
           "email": "info@horseworld.com",
           "picture": "https://static.wikia.nocookie.net/horse-world/images/d/d3/UnicornGamepass.png/revision/latest/thumbnail/width/360/height/360?cb=20230430040653"
         },
-      "category":"2",
+      "category":"3",
         "price": 29.99,
         "rating": 4.2,
         "quantity": 8,
@@ -63,7 +63,7 @@
           "email": "info@horseworld.com",
           "picture": "https://static.wikia.nocookie.net/horse-world/images/d/d3/UnicornGamepass.png/revision/latest/thumbnail/width/360/height/360?cb=20230430040653"
         },
-      "category":"2",
+      "category":"3",
         "price": 29.99,
         "rating": 4.2,
         "quantity": 8,
@@ -78,7 +78,7 @@
           "picture": "https://sribu-2022.s3.amazonaws.com/assets/media/contest_detail/2017/2/kontes-desain-logo-untuk-toko-mainan-58997042faaa266764349afa/d8f7501596.jpg"
         },
         
-      "category":"4",
+      "category":"Dinosaur",
         "price": 14.99,
         "rating": 4.8,
         "quantity": 12,
@@ -93,7 +93,7 @@
           "picture": "https://sribu-2022.s3.amazonaws.com/assets/media/contest_detail/2017/2/kontes-desain-logo-untuk-toko-mainan-58997042faaa266764349afa/d8f7501596.jpg"
         },
         
-      "category":"4",
+      "category":"Dinosaur",
         "price": 14.99,
         "rating": 4.8,
         "quantity": 12,
@@ -107,7 +107,7 @@
           "email": "info@puppyplay.com",
           "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOXec4ct_MmtudFAi15YsXpvJrgHbTBKWogQ&usqp=CAU"
         },
-        "category":"5",
+        "category":"Dog",
         "price": 19.99,
         "rating": 4.5,
         "quantity": 6,
@@ -121,7 +121,7 @@
           "email": "info@puppyplay.com",
           "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOXec4ct_MmtudFAi15YsXpvJrgHbTBKWogQ&usqp=CAU"
         },
-      "category":"5",
+      "category":"Dog",
         "price": 19.99,
         "rating": 4.5,
         "quantity": 6,
@@ -135,7 +135,7 @@
           "email": "sales@catkingdom.com",
           "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmIKzM6wTURDy62cb5C0Kz1oIDMpVRQxGgJfWUCdaIoiJzTvsOI9xxwl0wB89XS5ODlqQ&usqp=CAU"
         },
-      "category":"6",
+      "category":"Cat",
         "price": 9.99,
         "rating": 4.0,
         "quantity": 15,
@@ -149,7 +149,7 @@
           "email": "sales@catkingdom.com",
           "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmIKzM6wTURDy62cb5C0Kz1oIDMpVRQxGgJfWUCdaIoiJzTvsOI9xxwl0wB89XS5ODlqQ&usqp=CAU"
         },
-        "category":"6",
+        "category":"Cat",
         "price": 9.99,
         "rating": 4.0,
         "quantity": 15,
@@ -179,7 +179,7 @@
           "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQhG9deIfzND_XzeAnOcMHBiv2R_EnixBapbVa65yYCg7zG7pIRCf2nDqCxfvMiS_rksU&usqp=CAU"
         },
         
-      "category":"7",
+      "category":"Cow",
         "price": 17.99,
         "rating": 4.3,
         "quantity": 9,
@@ -193,7 +193,7 @@
           "email": "sales@farmfun.com",
           "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQhG9deIfzND_XzeAnOcMHBiv2R_EnixBapbVa65yYCg7zG7pIRCf2nDqCxfvMiS_rksU&usqp=CAU"
         },
-        "category":"7",
+        "category":"Cow",
         "price": 17.99,
         "rating": 4.3,
         "quantity": 9,
@@ -207,7 +207,7 @@
             "email": "info@toyworld.com",
             "picture": "https://giftguideonline.com.au/wp-content/uploads/2015/07/249_photo_1376.jpg"
           },
-          "category":"1",
+          "category":"Teddy",
         "price": 12.99,
         "rating": 4.0,
         "quantity": 10,

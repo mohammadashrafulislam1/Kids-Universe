@@ -12,6 +12,7 @@ import Login from './Login/Login/Login';
 import Registration from './Login/Registration/Registration';
 import AuthProvider from './Provider/AuthProvider';
 import AllToys from './pages/AllToys/AllToys';
+import SortsByCategory from './Home/SortsByCategory/SortsByCategory';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,8 +34,9 @@ const router = createBrowserRouter([
       {
         path:'all',
         element:<AllToys></AllToys>,
-        loader: ()=> fetch('http://localhost:5000/toys')
-      }
+        loader: ()=> fetch('https://kids-universe-server-mohammadashrafulislam1.vercel.app/toys')
+      },
+      
     ]
   },
 ]);
