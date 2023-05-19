@@ -11,6 +11,7 @@ import Main from './Main/Main';
 import Login from './Login/Login/Login';
 import Registration from './Login/Registration/Registration';
 import AuthProvider from './Provider/AuthProvider';
+import AllToys from './pages/AllToys/AllToys';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
       {
         path:'register',
         element:<Registration></Registration>
+      },
+      {
+        path:'all',
+        element:<AllToys></AllToys>,
+        loader: ()=> fetch('http://localhost:5000/toys')
       }
     ]
   },

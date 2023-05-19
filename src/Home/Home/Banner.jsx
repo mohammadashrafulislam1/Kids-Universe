@@ -23,8 +23,8 @@ const Banner = () => {
     </div>
     </div>
     <div className="absolute flex gap-4 transform -translate-y-1/2 right-10 bottom-5">
-      <a href="#slide4" className="btn btn-circle">❮</a> 
-      <a href="#slide2" className="btn btn-circle">❯</a>
+      <a href="#slide1" className="btn btn-circle">❮</a> 
+      <a href="#slide3" className="btn btn-circle">❯</a>
   </div></div>
   <div id="slide3" className="carousel-item relative w-full">
     <img src="https://i.ibb.co/LhxQq23/Untitled-design-7.png" className="w-full " /><div className="absolute flex items-center lg:gap-52 lg:p-20 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0) 100%)] h-full">
@@ -34,8 +34,8 @@ const Banner = () => {
     </div>
     </div>
     <div className="absolute flex gap-4 transform -translate-y-1/2 right-10 bottom-5">
-      <a href="#slide4" className="btn btn-circle">❮</a> 
-      <a href="#slide2" className="btn btn-circle">❯</a>
+      <a href="#slide2" className="btn btn-circle">❮</a> 
+      <a href="#slide4" className="btn btn-circle">❯</a>
     </div>
   </div> 
   <div id="slide4" className="carousel-item relative w-full">
@@ -46,8 +46,8 @@ const Banner = () => {
     </div>
     </div>
     <div className="absolute flex gap-4 transform -translate-y-1/2 right-10 bottom-5">
-      <a href="#slide4" className="btn btn-circle">❮</a> 
-      <a href="#slide2" className="btn btn-circle">❯</a>
+      <a href="#slide3" className="btn btn-circle">❮</a> 
+      <a href="#slide1" className="btn btn-circle">❯</a>
     </div>
   </div>
 </div>

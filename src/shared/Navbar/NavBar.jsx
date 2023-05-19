@@ -24,7 +24,7 @@ const NavBar = () => {
               {navLi}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a className="btn btn-ghost normal-case text-xl">Kids Universe</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -33,7 +33,7 @@ const NavBar = () => {
         </div>
         <div className="navbar-end">
         {user? <div className="dropdown dropdown-end">
-      <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+      <label tabIndex={0} className="btn btn-ghost btn-circle avatar z-10">
         <div className="w-10 rounded-full" data-tooltip-id="name" data-tooltip-content={user?.displayName}>
           <img src={user?.photoURL} />
           

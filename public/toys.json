@@ -1,0 +1,217 @@
+[
+    {
+      "picture": "https://img.freepik.com/premium-photo/portrait-cute-teddy-bear-holding-valentine-heart-valentine-s-day-love-concept-generative-ai_339974-278.jpg",
+      "name": "Cute Teddy Bear",
+      "seller": {
+        "name": "Teddy Time",
+        "email": "info@toyworld.com",
+        "picture": "https://giftguideonline.com.au/wp-content/uploads/2015/07/249_photo_1376.jpg"
+      },
+      "category":"1",
+      "price": 19.99,
+      "rating": 4.5,
+      "quantity": 10,
+      "details": "This adorable teddy bear is made of soft plush material, perfect for cuddling."
+    },
+    {
+      "picture": "https://sc04.alicdn.com/kf/HTB18NajOYvpK1RjSZPiq6zmwXXas.jpg",
+      "name": "Funny Monkey Plush",
+      "seller": {
+        "name": "Happy Toys",
+        "email": "sales@happytoys.com",
+        "picture": "https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/304936085_582200083602262_251668984854104651_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=edy8z8yna94AX8yDn2S&_nc_ht=scontent.fdac27-2.fna&oh=00_AfDW6Nud7btRUQtKE9Ci1htoSRZuQf-KT5E2zL5NAp9PWw&oe=646C97BB"
+      },
+      "category":"2",
+      "price": 12.99,
+      "rating": 3.8,
+      "quantity": 5,
+      "details": "This playful monkey plush toy will bring joy and laughter to your little ones."
+    },
+    {
+        "picture": "https://m.media-amazon.com/images/I/81hDR5XA42L._AC_SL1500_.jpg",
+        "name": "Cheeky Chimp",
+        "seller": {
+          "name": "Happy Toys",
+          "email": "sales@happytoys.com",
+          "picture": "https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/304936085_582200083602262_251668984854104651_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=edy8z8yna94AX8yDn2S&_nc_ht=scontent.fdac27-2.fna&oh=00_AfDW6Nud7btRUQtKE9Ci1htoSRZuQf-KT5E2zL5NAp9PWw&oe=646C97BB"
+        },
+      "category":"2",
+        "price": 12.99,
+        "rating": 3.8,
+        "quantity": 5,
+        "details": "This playful Cheeky Chimp toy will bring joy and laughter to your little ones."
+      },
+    {
+        "picture": "https://sc04.alicdn.com/kf/HTB1j8LLk5AKL1JjSZFoq6ygCFXaI.jpg",
+        "name": "Galloping Horse",
+        "seller": {
+          "name": "Horse World",
+          "email": "info@horseworld.com",
+          "picture": "https://static.wikia.nocookie.net/horse-world/images/d/d3/UnicornGamepass.png/revision/latest/thumbnail/width/360/height/360?cb=20230430040653"
+        },
+      "category":"2",
+        "price": 29.99,
+        "rating": 4.2,
+        "quantity": 8,
+        "details": "This beautiful galloping horse toy is perfect for imaginative play."
+      },
+      {
+        "picture": "https://i.ebayimg.com/images/g/OWwAAOSwIHlimo2G/s-l1600.jpg",
+        "name": "Majestic Stallion",
+        "seller": {
+          "name": "Horse World",
+          "email": "info@horseworld.com",
+          "picture": "https://static.wikia.nocookie.net/horse-world/images/d/d3/UnicornGamepass.png/revision/latest/thumbnail/width/360/height/360?cb=20230430040653"
+        },
+      "category":"2",
+        "price": 29.99,
+        "rating": 4.2,
+        "quantity": 8,
+        "details": "This beautiful Majestic Stallion toy is perfect for imaginative play."
+      },
+      {
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Trex_Roar.jpg",
+        "name": "Roaring T-Rex",
+        "seller": {
+          "name": "Dino Toys",
+          "email": "sales@dinosaurstoys.com",
+          "picture": "https://sribu-2022.s3.amazonaws.com/assets/media/contest_detail/2017/2/kontes-desain-logo-untuk-toko-mainan-58997042faaa266764349afa/d8f7501596.jpg"
+        },
+        
+      "category":"4",
+        "price": 14.99,
+        "rating": 4.8,
+        "quantity": 12,
+        "details": "This fierce T-Rex dinosaur toy with sound effects will bring the Jurassic era to life."
+      },
+      {
+        "picture": "https://dinotoyblog.com/wp-content/uploads/2022/07/mattel_hammond_collection_tyrannosaurus_17.jpg",
+        "name": "Tyrannosaurus Rex",
+        "seller": {
+          "name": "Dino Toys",
+          "email": "sales@dinosaurstoys.com",
+          "picture": "https://sribu-2022.s3.amazonaws.com/assets/media/contest_detail/2017/2/kontes-desain-logo-untuk-toko-mainan-58997042faaa266764349afa/d8f7501596.jpg"
+        },
+        
+      "category":"4",
+        "price": 14.99,
+        "rating": 4.8,
+        "quantity": 12,
+        "details": "This fierce Tyrannosaurus Rex toy with sound effects will bring the Jurassic era to life."
+      },
+      {
+        "picture": "https://img.freepik.com/premium-vector/shiba-inu-dogs-character-collection-playful-pet-various-poses-set-hand-drawn-vector-sticker-cute-funny-dog_87946-4524.jpg",
+        "name": "Playful Dog Set",
+        "seller": {
+          "name": "Puppy Play",
+          "email": "info@puppyplay.com",
+          "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOXec4ct_MmtudFAi15YsXpvJrgHbTBKWogQ&usqp=CAU"
+        },
+        "category":"5",
+        "price": 19.99,
+        "rating": 4.5,
+        "quantity": 6,
+        "details": "This set includes a collection of adorable dog figures, perfect for dog lovers."
+      },
+      {
+        "picture": "https://image.chewy.com/is/image/catalog/113808_MAIN._AC_SL1500_V1660706811_.jpg",
+        "name": "Chewy Bone",
+        "seller": {
+          "name": "Puppy Play",
+          "email": "info@puppyplay.com",
+          "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOXec4ct_MmtudFAi15YsXpvJrgHbTBKWogQ&usqp=CAU"
+        },
+      "category":"5",
+        "price": 19.99,
+        "rating": 4.5,
+        "quantity": 6,
+        "details": "This set includes a collection of adorable Chewy Bone, perfect for dog lovers. "
+      },
+      {
+        "picture": "https://i0.wp.com/douglascuddletoy.com/wp-content/uploads/2022/04/2475-1.jpg?resize=400%2C400&ssl=1",
+        "name": "Cuddly Cat",
+        "seller": {
+          "name": "Cat Kingdom",
+          "email": "sales@catkingdom.com",
+          "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmIKzM6wTURDy62cb5C0Kz1oIDMpVRQxGgJfWUCdaIoiJzTvsOI9xxwl0wB89XS5ODlqQ&usqp=CAU"
+        },
+      "category":"6",
+        "price": 9.99,
+        "rating": 4.0,
+        "quantity": 15,
+        "details": "This cute and fluffy cat toy is great for kids who love feline friends."
+      },
+      {
+        "picture": "https://hamleysgumlet.gumlet.io/product/491948341/665/491948341-2.jpg",
+        "name": "Soft Cat Toy",
+        "seller": {
+          "name": "Cat Kingdom",
+          "email": "sales@catkingdom.com",
+          "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmIKzM6wTURDy62cb5C0Kz1oIDMpVRQxGgJfWUCdaIoiJzTvsOI9xxwl0wB89XS5ODlqQ&usqp=CAU"
+        },
+        "category":"6",
+        "price": 9.99,
+        "rating": 4.0,
+        "quantity": 15,
+        "details": "This cute and Soft Cat Toy is great for kids who love feline friends."
+      },
+      {
+        "picture": "https://www.vtech.co.uk/assets/data/products/%7B7B9266FC-857D-44CA-919C-B9A13B86EECC%7D/images/177403-product-image-front-FINAL-low-res_large.jpg",
+        "name": "Magical Unicorn",
+        "seller": {
+            "name": "Horse World",
+            "email": "info@horseworld.com",
+            "picture": "https://static.wikia.nocookie.net/horse-world/images/d/d3/UnicornGamepass.png/revision/latest/thumbnail/width/360/height/360?cb=20230430040653"
+          },
+          
+      "category":"3",
+        "price": 24.99,
+        "rating": 4.7,
+        "quantity": 3,
+        "details": "This enchanting unicorn toy with shimmering colors will spark imagination."
+      },
+      {
+        "picture": "https://cdn.shopify.com/s/files/1/0144/9040/2902/products/HEN_1f7ac2d0-4e10-4549-9c69-8f2b33dcc1ba_800x.jpg?v=1666653323",
+        "name": "Mooing Cow Set",
+        "seller": {
+          "name": "Farm Fun",
+          "email": "sales@farmfun.com",
+          "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQhG9deIfzND_XzeAnOcMHBiv2R_EnixBapbVa65yYCg7zG7pIRCf2nDqCxfvMiS_rksU&usqp=CAU"
+        },
+        
+      "category":"7",
+        "price": 17.99,
+        "rating": 4.3,
+        "quantity": 9,
+        "details": "This set features cute cow figures that make realistic mooing sounds."
+      },
+      {
+        "picture": "https://m.media-amazon.com/images/I/81NdXHeqvYL.jpg",
+        "name": "Cow Toy",
+        "seller": {
+          "name": "Farm Fun",
+          "email": "sales@farmfun.com",
+          "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQhG9deIfzND_XzeAnOcMHBiv2R_EnixBapbVa65yYCg7zG7pIRCf2nDqCxfvMiS_rksU&usqp=CAU"
+        },
+        "category":"7",
+        "price": 17.99,
+        "rating": 4.3,
+        "quantity": 9,
+        "details": "This set features cute cow toy that make realistic mooing sounds."
+      },
+      {
+        "picture": "https://i5.walmartimages.com/asr/5a31bdc7-0956-4c6c-8dff-2fc735fa6a44.43f48a84de68ddb87af8242346eee50f.jpeg",
+        "name": "Snuggly Teddy Bear",
+        "seller": {
+            "name": "Teddy Time",
+            "email": "info@toyworld.com",
+            "picture": "https://giftguideonline.com.au/wp-content/uploads/2015/07/249_photo_1376.jpg"
+          },
+          "category":"1",
+        "price": 12.99,
+        "rating": 4.0,
+        "quantity": 10,
+        "details": "This Snuggly Teddy Bear that make realistic mooing sounds."
+    }
+  ]
+  
