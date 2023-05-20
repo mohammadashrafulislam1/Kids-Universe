@@ -42,7 +42,7 @@ const NavBar = () => {
       </label>
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         <li>
-         <Link to='/add'>Add A Toy</Link>
+         <Link to='/addtoy'>Add A Toy</Link>
         </li>
         <li><Link to='/mytoy'>My Toys</Link></li>
         <li className="p-2 cursor-pointer" onClick={handleLogOut}>Log out</li>
