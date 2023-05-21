@@ -3,7 +3,7 @@ import ListDetails from "../pages/AllToys/ListDetails";
 const ToyList = () => {
   const [toys, setToys] =useState();
   useEffect(() =>{
-   fetch('https://kids-universe-server-mohammadashrafulislam1.vercel.app/toys')
+   fetch('http://localhost:5000/toys')
    .then(r => r.json())
    .then(d => setToys(d))
   }, [])

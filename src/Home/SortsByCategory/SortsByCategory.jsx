@@ -6,7 +6,7 @@ const SortsByCategory = () => {
     const [toys, setToys] = useState('');
     const [active, setActive] = useState('Teddy');
     useEffect(()=>{
-        fetch('https://kids-universe-server-mohammadashrafulislam1.vercel.app/toys')
+        fetch('http://localhost:5000/toys')
         .then(r => r.json())
         .then(data => setToys(data))
     })

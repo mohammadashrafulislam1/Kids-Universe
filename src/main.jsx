@@ -14,6 +14,9 @@ import AuthProvider from './Provider/AuthProvider';
 import DetailsToy from './pages/DetailsToy/DetailsToy';
 import ToyList from './ToyList/ToyList';
 import AddAToy from './pages/AddToy/AddAToy';
+import MyToys from './pages/MyToys/MyToys';
+import Update from './pages/Update/Update';
+import Blogs from './pages/Blogs/Blogs';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -35,7 +38,7 @@ const router = createBrowserRouter([
       {
         path:'toys/:id',
         element:<DetailsToy></DetailsToy>,
-        loader:(({params}) => fetch(`https://kids-universe-server-mohammadashrafulislam1.vercel.app/toys/${params.id}`))
+        loader:(({params}) => fetch(`http://localhost:5000/toys/${params.id}`))
       },
       {
         path:'all',
@@ -44,8 +47,20 @@ const router = createBrowserRouter([
       {
         path:'addtoy',
         element:<AddAToy></AddAToy>
+      },
+      {
+        path:'mytoy',
+        element:<MyToys></MyToys>
+      },
+      {
+        path:'update',
+        element:<Update></Update>,
+        loader:({params})=> fetch(`http://localhost:5000/toys/${params.id}`)
+      },
+      {
+        path:'blogs',
+        element:<Blogs></Blogs>
       }
-      
     ]
   },
 ]);

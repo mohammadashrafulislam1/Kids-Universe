@@ -11,12 +11,28 @@ const AddAToy = () => {
         const toyName = form.toyName.value;
         const sellerName = form.sellerName.value;
         const sellerEmail = form.sellerEmail.value;
+        const sellerPicture = form.sellerPicture.value;
         const category = form.category.value;
         const price = form.price.value;
         const quantity = form.quantity.value;
         const rating = form.rating.value;
         const details = form.details.value;
-        console.log(toyPhoto, toyName, sellerName, sellerEmail, category, price, quantity, rating, details)
+        const newToy ={toyPhoto, toyName, sellerName, sellerEmail, category, price, quantity, rating, sellerPicture, details};
+        form.reset()
+        fetch('http://localhost:5000/toys',{
+            method:'POST',
+            headers:{
+                'content-type':'application/json'
+            },
+            body:JSON.stringify(newToy)
+        })
+    .then(res => res.json())
+    .then(data => {
+        console.log(data)
+        if(data.insertedId){
+            alert('Successfully Added Your Toy. Enjoy ;)')
+        }
+    })
     }
     return (
         <div className="mx-auto text-center my-5">
@@ -36,6 +52,9 @@ const AddAToy = () => {
     
     <label>Seller Email</label> <br />
     <input type="text" placeholder="Type here" className="input input-bordered input-secondary w-full mb-5"  defaultValue={user?.email} name="sellerEmail"/><br /><br />
+
+    <label>Seller Photo</label> <br />
+    <input type="text" placeholder="Type here" className="input input-bordered input-secondary w-full mb-5"   name="sellerPicture"/><br /><br />
 
     <label>Category</label> <br />
     <input type="text" placeholder="Type here" className="input input-bordered input-secondary w-full mb-5" name="category"/><br /><br />
