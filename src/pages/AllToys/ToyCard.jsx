@@ -1,13 +1,18 @@
 import Rating from "react-rating";
 import { Link } from "react-router-dom";
 import { FaRegStar, FaStar } from 'react-icons/fa';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 const ToyCard = ({re}) => {
+  useEffect(()=>{
+    Aos.init();
+  }, [])
   console.log(re)
     const {toyName, sellerPicture, sellerName, sellerEmail, toyPhoto, price, quantity, _id, rating}= re;
     return (
         <div>
-            <div className="card w-96 bg-base-100 shadow-xl">
+            <div className="card w-96 bg-base-100 shadow-xl" data-aos="fade-up">
   <figure className="p-5">
     <img src={toyPhoto} alt="Shoes" className="rounded-xl w-full h-[200px]" />
   </figure>

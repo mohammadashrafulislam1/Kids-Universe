@@ -24,7 +24,9 @@ const MyToys = () => {
       <input onChange={(e) => useSearchText(e.target.value)} type="text" placeholder="Search" className="input input-bordered my-5" />
       <button className="btn " onClick={handleMySearch}>Search</button>
     </div>
-
+    <div className=" w-full mx-auto">
+    <button className="btn">Sort</button>
+    </div>
      <div className="overflow-x-auto w-full">
   <table className="table w-1/2  mx-auto">
     <thead>
