@@ -56,7 +56,7 @@ const MyList = ({toy}) => {
         <td className="text-center">{quantity}</td>
         <th>
          <button className="btn mr-3" onClick={()=>handleDelete(_id)}>Delete</button>
-         <Link to="/update"><button className="btn">Update</button></Link>
+         <Link to={`/update/${_id}`}><button className="btn">Update</button></Link>
         </th>
       </tr>
     );
