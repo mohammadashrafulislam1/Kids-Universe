@@ -1,3 +1,4 @@
+import Contact from "../Contact/Contact";
 import Gallery from "../Gallery/Gallery";
 import SortsByCategory from "../SortsByCategory/SortsByCategory";
 import Testimonial from "../Testimonial/Testimonial";
@@ -14,6 +15,7 @@ const Home = () => {
         </div>
         <Testimonial></Testimonial>
         </div>
+        <Contact></Contact>
         </div>
     );
 };
