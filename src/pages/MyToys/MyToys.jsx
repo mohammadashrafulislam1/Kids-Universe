@@ -3,7 +3,7 @@ import { AuthContext } from "../../Provider/AuthProvider";
 import MyList from "../MyList/MyList";
 
 const MyToys = () => {
-    const {user, loader} = useContext(AuthContext);const [myToys, setMyToys] = useState();
+    const {user} = useContext(AuthContext);const [myToys, setMyToys] = useState();
     const [searchText, useSearchText] =useState();
     const handleMySearch =()=>{
       fetch(`http://localhost:5000/jobSearchByTitle/${searchText}`)

@@ -7,7 +7,7 @@ export const AuthContext = createContext();
 const AuthProvider = ({children}) => {
     const auth = getAuth(app);
     const [user, setUser] = useState();
-    const [loader, setLoader] = useState();
+    const [loader, setLoader] = useState(false);
 
     const googleProvider = new GoogleAuthProvider();
     const githubProvider = new GithubAuthProvider();
@@ -21,9 +21,9 @@ const AuthProvider = ({children}) => {
         return signInWithEmailAndPassword(auth, email, password)
     }
     useEffect(()=>{
-        setLoader(false)
         const unsubscribe = onAuthStateChanged(auth, currenUser =>{
             setUser(currenUser)
+            setLoader(false)
         });
         // stop observing while unmount
         return ()=>{
